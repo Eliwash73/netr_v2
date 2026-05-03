@@ -1,8 +1,9 @@
 import { Component } from '@angular/core';
+import { PodPage } from "../pod-page/pod-page";
 
 @Component({
   selector: 'app-home-page',
-  imports: [],
+  imports: [PodPage],
   templateUrl: './home-page.html',
   styleUrl: './home-page.css',
 })
