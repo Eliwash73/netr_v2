@@ -1,18 +1,18 @@
 import { ComponentFixture, TestBed } from '@angular/core/testing';
 
-import { PodPage } from './pod-page';
+import { PodItem } from './pod-item';
 
-describe('PodPage', () => {
-  let component: PodPage;
-  let fixture: ComponentFixture<PodPage>;
+describe('PodItem', () => {
+  let component: PodItem;
+  let fixture: ComponentFixture<PodItem>;
 
   beforeEach(async () => {
     await TestBed.configureTestingModule({
-      imports: [PodPage]
+      imports: [PodItem]
     })
     .compileComponents();
 
-    fixture = TestBed.createComponent(PodPage);
+    fixture = TestBed.createComponent(PodItem);
     component = fixture.componentInstance;
     await fixture.whenStable();
   });

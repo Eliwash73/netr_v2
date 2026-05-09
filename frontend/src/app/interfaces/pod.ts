@@ -1,8 +1,5 @@
 export interface Pod {
-  podID: number
-  pdoName: string,
-  quantity: number,
-  date: string,
-  color: string
-
+  podID: number;
+  podName: string;
+  color: string;
 }
